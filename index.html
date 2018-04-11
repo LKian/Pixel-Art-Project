@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+<footer>
+  <div class="signature">
+    <p> <a target=”_blank” href="http://leahkahwadjian.com/">LK Labs</a> &copy; 2018 </p>
+  </div>
+</footer> 
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
