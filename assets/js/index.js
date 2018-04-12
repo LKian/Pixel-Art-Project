@@ -5,6 +5,7 @@ $("input[type='submit']").on('click',function(event) {
 	$('#pixelCanvas').empty();
 	const height = $('#inputHeight').val();
 	const width = $('#inputWidth').val(); 
+	const canvas = $('#pixelCanvas');
 	console.log($('#colorPicker').val());
 	makeGrid(height, width);
 
